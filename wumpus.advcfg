@@ -1,0 +1,19 @@
+These configuration lines may exceed 100 characters.
+Each line starting with a coordinate (row,colum) gives the field/attribute values for that location in the map.
+The first set of integer coordinates at the beginning of a line in this file (e.g., 8,6/size/...) is the overall
+size (number of rows and number of columns) of the map to be used to create the internal map array.
+The line with the 'start' name (e.g., 0,4/start/...) is the starting location of the player.
+
+Coordinates/Name/Enter Text/Enter Result/Nearby Text/
+8,6/size/This is the size of the map///
+5,5/wumpus/You've been eaten by the Wumpus./lose/awful smell/
+4,4/pit/You fell into a pit/lose/you feel a draft/
+4,3/pit/You fell into a pit/lose/you feel a draft/
+3,4/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
+2,2/child/You've found the child safe and happy to see you!/win/you hear a child softly crying/
+0,4/start/Welcome to the Wumpus Adventure! Find the child without getting eaten by the wumpus. May you return safely!///
+6,0/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
+6,1/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
+6,2/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
+6,3/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
+6,4/bat/A huge bat picked you up and dropped you somewhere.../randomMove/you hear a rustling/
